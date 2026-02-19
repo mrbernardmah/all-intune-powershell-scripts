@@ -1,0 +1,1 @@
+Get-NetFirewallRule -Group '*-32752*' | Where-Object 'Profile' -Match 'Private' | Set-NetFirewallRule -Enabled 'True'

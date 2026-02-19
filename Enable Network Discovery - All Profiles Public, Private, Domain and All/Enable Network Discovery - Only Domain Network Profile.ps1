@@ -1,0 +1,1 @@
+Get-NetFirewallRule -Group '*-32752*' | Where-Object 'Profile' -Match 'Domain' | Set-NetFirewallRule -Enabled 'True'

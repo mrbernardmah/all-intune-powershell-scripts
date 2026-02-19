@@ -1,0 +1,1 @@
+Set-NetFirewallRule -Group '*-32752*' -Enabled 'True'
